@@ -4,7 +4,7 @@ Application Python permettant de générer, visualiser et exporter des diagramme
 
 ---
 
-## 🛠 Installation
+## Installation
 
 1. Clonez le dépôt :
 
@@ -23,34 +23,27 @@ Application Python permettant de générer, visualiser et exporter des diagramme
    source .venv/bin/activate
    ```
 
-3. Installez les dépendances (si un `requirements.txt` est fourni) :
 
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Lancez les tests pour vérifier l’installation :
+3. Lancez les tests pour vérifier l’installation :
 
    ```bash
    python -m pytest
    ```
 
-##  Structure du projet
+## Structure du projet
 
-.
-├── phase1/
-│   ├── src/…                    # calculs de triangulation & Voronoï
-│   └── tests/…                  # tests unitaires phase 1
-├── phase2/
-│   ├── chatgpt/, Claude/, …     # différentes implémentations d’algorithmes
-│   ├── data/
-│   └── tests/…                  # tests unitaires phase 2
-└── phase3/                      # à compléter (objectif final)  
-```
+- **phase1/**
+  - `src/` – calculs de triangulation & Voronoï
+  - `tests/` – tests unitaires phase 1
+- **phase2/**
+  - `chatgpt/`, `Claude/`, … – différentes implémentations d’algorithmes
+  - `data/`
+  - `tests/` – tests unitaires phase 2
+- **phase3/** – Travaux Individuels.
 
 ---
 
-##  Phase 1 – Algorithme de base
+## Phase 1 – Algorithme de base
 
 Un algorithme développé tout seul sans utilisation d’outils d’IA, basé sur la triangulation de Delaunay et la construction du diagramme de Voronoï.
 
@@ -72,7 +65,7 @@ Fichiers clés :
 
 ---
 
-## Phase 2 – Refactorisation et multiples versions
+## Phase 2 – Multiples versions à partir plusieurs outils d’IA.
 
 Différentes versions/modèles comparés :
 
@@ -98,15 +91,15 @@ python -m pytest phase2/**/*.py
 
 ---
 
-##  Phase 3 – À venir
+## Phase 3 – Travaux individuels
 
-Ce dossier est réservé à la partie de travail individuel de chaque membre du groupe répondant a ces differents catégories : 
+Ce dossier est consacré aux recherches et réflexions personnelles de chaque membre du groupe. Les thématiques abordées peuvent inclure :
 
-1/ environnement
-2/ coût économique, souveraineté et géopolitique
-3/ légalité et responsabilité
-4/ conséquences sur les personnes travaillant avec l'IA
-5/ qualité du logiciel et de la maintenance
-6/ réputation et appropriation du produit par le public
+- **Environnement**
+- **Coût économique, souveraineté et géopolitique**
+- **Légalité et responsabilité**
+- **Conséquences pour les personnes travaillant avec l'IA**
+- **Qualité du logiciel et maintenance**
+- **Réputation et appropriation du produit par le public**
 
 ---
